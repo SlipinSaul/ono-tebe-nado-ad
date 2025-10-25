@@ -26,6 +26,7 @@ main {
 }
 
 .header__link { 
+
     font-size: 18px;
     white-space: nowrap;
 }
@@ -99,10 +100,6 @@ address {
 
 .aligned-text_right {
   text-align: right;
-}
-
-.letter-spacing-extended {
-  letter-spacing: 60px;
 }
 
 .remove-spacing {
@@ -285,10 +282,9 @@ address {
   padding: 180px 50px 80px;
 }
 
-.footer_address {
-    display: flex;
-    justify-content: space-between;
-    padding: 180px 50px 80px;
+.footer__address {
+    justify-self: start;
+    font-size: 18px;
 }
 
 .footer__social-icon {
