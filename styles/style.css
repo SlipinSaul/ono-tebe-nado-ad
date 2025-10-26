@@ -26,7 +26,6 @@ main {
 }
 
 .header__link { 
-
     font-size: 18px;
     white-space: nowrap;
 }
@@ -129,8 +128,6 @@ address {
   border: 1px #FFF solid;
   padding: 14px 32px;
   color: #FFF;
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
   font-size: 22px;
   line-height: 1;
   text-transform: uppercase;
@@ -153,7 +150,7 @@ address {
 .lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
@@ -175,24 +172,20 @@ address {
   width: auto;
   height: 100%;
   padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
@@ -225,10 +218,10 @@ address {
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   column-gap: 24px;
   padding: 0 24px;
-  margin-top: -19px;
+  margin-top: -20px; /* Убирает лишние оступы созданные с помощью gap для main*/
 }
 .about__column {
   justify-self: center;
@@ -264,9 +257,6 @@ address {
   display: flex;
   flex-direction: column;
   gap: 25px;
-}
-
-.about__text p {
   font-size: 20px;
   line-height: 24px;
 }
