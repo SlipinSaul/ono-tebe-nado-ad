@@ -223,6 +223,7 @@ address {
   padding: 0 24px;
   margin-top: -20px; /* Убирает лишние оступы созданные с помощью gap для main*/
 }
+
 .about__column {
   justify-self: center;
 }
@@ -258,7 +259,7 @@ address {
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .about__text-padding_right {
